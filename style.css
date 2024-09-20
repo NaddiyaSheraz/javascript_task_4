@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* margin-right: 1rem; */
+}
+body{
+    margin-left: 1rem;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #f5f5f5; /* Light background */
+    background-image: url(images/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; /* Full screen height */
+}
+
+#row1 h1{
+    font-family: "Sofadi One", system-ui;
+    font-size: 45px;  
+    margin-top: 1rem;
+    color: #107cc5;
+    /* text-align: center; */
+}
+#row2, #row3 {
+    margin-top: 1rem;
+    text-align: center;
+}
+label {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: #107cc5;
+}
+h1, label {
+    font-family: 'Poppins', sans-serif; /* Example font */
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #107cc5;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+input, #btnresult, .btn1 {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+input:focus {
+    border: 2px solid #0b7dda;
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5);
+}
+.btn1:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+.btn1 {
+    background: linear-gradient(135deg, #2196F3, #107cc5);
+}
+
+
+.row4 {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+#row4 .btn1 {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #107cc5; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.btn1:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+#resultdisplay {
+    margin-top: 1rem;
+    font-size: 24px;
+    font-family: "Sofadi One", system-ui;
+    color: #107cc5;
+    margin-left: 2rem;
+}
+#resultdisplay.show {
+    opacity: 1;
+}
+#resultdisplay {
+    /* opacity: 0; */
+    transition: opacity 0.5s ease-in-out;
+}
+#resultdisplay.show {
+    opacity: 1;
+}
+
+#btnresult {
+    background-color: #2196F3; /* Blue for result button */
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+#btnresult {
+    background: linear-gradient(135deg, #0b7dda, #2196F3);
+}
+.row5 #btnresult:hover {
+    background-color: #0b7dda;
+}

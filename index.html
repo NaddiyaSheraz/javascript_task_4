@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="row1">
+        <h1>Simple Calculator</h1>
+    </div>
+    <div id="row2"></div>
+        <Label class="row2lab" for="num1">Enter the first number</Label><br>
+        <input  type="number" id="num1"> 
+        <Label class="row3lab" for="num2">Enter the second number</Label>
+        <input type="number" id="num2"> 
+    </div>
+    
+    <div id="row4">
+        <button class="btn1" onclick="DivideFun()">/</button>
+        <button class="btn1" onclick="MultiplyFun()">*</button>
+        <button class="btn1" onclick="AddFun()">+</button>
+        <button class="btn1" onclick="SubtractFun()">-</button>
+    </div>
+    <div id="row5">
+        <button id="btnresult" onclick="showResult()">Result</button>
+        <p id="resultdisplay"></p>
+    </div>
+  
+</body>
+</html>
